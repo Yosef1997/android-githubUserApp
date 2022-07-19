@@ -12,5 +12,5 @@ data class User(
     var company: String,
     var followers: String,
     var following: String,
-    var avatar: String,
+    var avatar: Int,
 ):Parcelable

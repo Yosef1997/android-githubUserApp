@@ -1,7 +1,15 @@
 <resources>
-    <string name="app_name">GitHubUserApp</string>
+    <string name="app_name">GitHub User\'s</string>
+    <string name="detail_activity">Detail User</string>
     <string name="users_name">Nama Pengguna</string>
     <string name="description">Deskripsi</string>
+    <string name="username_lbl">Username: </string>
+    <string name="name_lbl">Name: </string>
+    <string name="location_lbl">Location: </string>
+    <string name="repository_lbl">Repository: </string>
+    <string name="company_lbl">Company: </string>
+    <string name="followers_lbl">Followers: </string>
+    <string name="following_lbl">Following: </string>
 
     <string-array name="username">
         <item>JakeWharton</item>
@@ -94,7 +102,7 @@
         <item>10</item>
     </string-array>
 
-    <string-array name="avatar">
+    <integer-array name="avatar">
         <item>@drawable/user1</item>
         <item>@drawable/user1</item>
         <item>@drawable/user3</item>
@@ -105,5 +113,5 @@
         <item>@drawable/user8</item>
         <item>@drawable/user9</item>
         <item>@drawable/user10</item>
-    </string-array>
+    </integer-array>
 </resources>
